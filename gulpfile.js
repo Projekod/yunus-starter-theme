@@ -58,9 +58,16 @@ gulp.task('sass', function () {
         .pipe(browserSync.reload({stream: true}));
 });
 
+
+
 gulp.task('watch', function () {
-    gulp.watch("./**/*.twig").on('change', browserSync.reload);
-    gulp.watch("./**/*.php").on('change', browserSync.reload);
+    gulp.watch("*.php").on('change', function(){
+        browserSync.reload({stream: true});
+    });
+    gulp.watch('src/sass/**', ['sass']);
+    gulp.watch('src/js/**', ['scripts']);
+    gulp.watch('src/css/**', ['css']);
+
 });
 
-gulp.task('default', ['scripts', 'sass', 'watch','browserSync']);
+gulp.task('default', ['scripts', 'sass', 'css', 'browserSync', 'watch']);

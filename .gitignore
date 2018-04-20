@@ -2,3 +2,6 @@
 .idea
 node_modules
 config.json
+src/css/*
+!src/css/custom.css
+!src/css/slick.css
