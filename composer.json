@@ -1,7 +1,9 @@
 {
     "name": "projekod/yunus-starter-theme",
-    "description": "",
+    "description": "Wordpress Starter Theme with gulp + timber + sass",
     "license": "mit",
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "timber/timber": "^1.2"
+    }
 }

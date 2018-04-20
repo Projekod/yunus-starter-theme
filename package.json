@@ -1,0 +1,40 @@
+{
+  "name": "yunus-starter-theme",
+  "version": "1.0.0",
+  "description": "Wordpress Starter Theme with Gulp + Timber + Sass + Bootstrap",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "projekod",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Projekod/yunus-starter-theme/issues"
+  },
+  "homepage": "https://github.com/Projekod/yunus-starter-theme#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.0",
+    "file-exists": "^5.0.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.0",
+    "slick-carousel": "^1.6.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^3.8.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sequence": "^0.4.6",
+    "gulp-shell": "^0.6.3",
+    "gulp-static-hash": "^0.1.4",
+    "gulp-uglify": "^3.0.0",
+    "gulp-version-number": "^0.1.7",
+    "gulp-nunjucks-render": "^2.0.0",
+    "nunjucks": "^3.0.0",
+    "gulp-rm": "^1.0.2"
+  }
+}
